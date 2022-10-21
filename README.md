@@ -43,7 +43,7 @@ Requirements:
             + The render code in the top code chunk should be run in the console
     + Push the changes up to github
             + Can use git tab in RStudio
-            + Or command line/terminal
-                    + git add -A
-                    + git commit -m "Message about the commit"
-                    + git push
+            + Or command line/terminal  
+                  + git add -A
+                  + git commit -m "Message about the commit"
+                  + git push
