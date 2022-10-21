@@ -29,8 +29,6 @@ knitr::kable(summary(iris))
 
 You can also embed plots, for example:
 
-```{r pressure, echo=FALSE, out.width = '550px'}
+```{r pressure, echo=FALSE, out.width = '550px', message = FALSE, comment=FALSE}
 GGally::ggpairs(iris, aes(color = Species))
 ```
-
-Note that the `echo = FALSE` parameter was added to the code chunk to prevent printing of the R code that generated the plot.
