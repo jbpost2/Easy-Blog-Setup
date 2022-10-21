@@ -14,4 +14,4 @@ Images work as well but things like size can be a little tough to control withou
 
 ### You can include HTML too
 
-<img src="https://moodle-projects.wolfware.ncsu.edu/draftfile.php/37031/user/draft/887376929/PaulRudd.gif" alt="" width="480" height="270" class="img-fluid atto_image_button_text-bottom">
+<img src="img/PaulRudd.gif" alt="" width="480" height="270" class="img-fluid atto_image_button_text-bottom">
