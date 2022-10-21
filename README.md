@@ -25,6 +25,7 @@ Requirements:
     + This copies this repo to your account.
     + Rename the repo to {Your GitHub username}.github.io (without the {})
     + Make sure the repo is set to public
+    + On the main repo page, go to settings (on the right of the menu above the files). Then go to 'pages' on the left and change the 'None' under branch to 'main' and hit save.
 3. Edit the `index.md` file with a blurb about yourself/your blog/or whatever you want people to see when they land on your page.
     + This page uses markdown, so you can add all sorts of things!
 4. Edit the `_config.yml` file with your information (shows at the bottom of each page)
