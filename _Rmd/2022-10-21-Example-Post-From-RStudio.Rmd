@@ -1,20 +1,21 @@
 ---
 title: "Example Post From RStudio"
-output: 
-  github_document
 ---
 
 ```{r, eval = FALSE, echo = FALSE}
-#Run this code in your **console**
-rmarkdown::render(input = "_Rmd/2022-10-21-Example-Post-From-RStudio.Rmd", 
-                  output_dir = '_posts/', 
-                  output_options = list(html_preview = FALSE))
+library(rmarkdown)
+rmarkdown::render("./_Rmd/2022-10-21-Example-Post-From-RStudio.Rmd",
+                  output_format = 'github_document',
+                  output_dir = './_posts/',
+                  output_options = list(
+                    df_print = 'default',
+                    html_preview = FALSE # to remove .html file creation
+                    )
+                  )
 ```
 
 ```{r setup, include=FALSE}
 knitr::opts_chunk$set(fig.path = "../img/")
-library(ggplot2)
-library(GGally)
 ```
 
 ## Cool Research Project
@@ -29,6 +30,6 @@ knitr::kable(summary(iris))
 
 You can also embed plots, for example:
 
-```{r pressure, echo=FALSE, out.width = '550px', message = FALSE, comment=FALSE}
-GGally::ggpairs(iris, aes(color = Species))
+```{r pressure, echo=FALSE, out.width = '550px'}
+pairs(iris)
 ```
