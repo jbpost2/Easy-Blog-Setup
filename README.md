@@ -32,18 +32,18 @@ Requirements:
 6. (Option 2) If you have RStudio and github connected, you can render any .Rmd file to your blog (so it will include R output!!)
     + Works with python code chunks, SQL, etc.
     + Open RStudio: 
-            - File --> New Project 
-            - Choose from Version Control
-            - Choose Git
-            - Paste in the repo info (green button on right side of main repo page gives you an easy way to copy it)
-            - Choose folder to save your repo and create it
+        - File --> New Project 
+        - Choose from Version Control
+        - Choose Git
+        - Paste in the repo info (green button on right side of main repo page gives you an easy way to copy it)
+        - Choose folder to save your repo and create it
     + Create a new .Rmd file in the `_Rmd` folder (see the example file in that folder).
-            + Note that the output type is `github_document`
-            + The code `knitr::opts_chunk$set(fig.path = "../img/")` in the setup code chunk
-            + The render code in the top code chunk should be run in the console
+        + Note that the output type is `github_document`
+        + The code `knitr::opts_chunk$set(fig.path = "../img/")` in the setup code chunk
+        + The render code in the top code chunk should be run in the console
     + Push the changes up to github
-            + Can use git tab in RStudio
-            + Or command line/terminal  
-                  + git add -A
-                  + git commit -m "Message about the commit"
-                  + git push
+        + Can use git tab in RStudio
+        + Or command line/terminal  
+             + git add -A
+             + git commit -m "Message about the commit"
+             + git push
