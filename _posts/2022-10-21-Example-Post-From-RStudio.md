@@ -23,4 +23,4 @@ knitr::kable(summary(iris))
 
 You can also embed plots, for example:
 
-<img src="../img/Example-Post-From-RStudiopressure-1.png" width="550px" />
+<img src="../img/Example-Post-From-RStudio/pressure-1.png" width="550px" />

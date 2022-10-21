@@ -15,7 +15,7 @@ rmarkdown::render("./_Rmd/2022-10-21-Example-Post-From-RStudio.Rmd",
 ```
 
 ```{r setup, include=FALSE}
-knitr::opts_chunk$set(fig.path = "../img/Example-Post-From-RStudio")
+knitr::opts_chunk$set(fig.path = "../img/Example-Post-From-RStudio/")
 ```
 
 ## Cool Research Project
