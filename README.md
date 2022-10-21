@@ -21,7 +21,7 @@ Requirements:
 ## Steps
 
 1. Get an account on github.com (your blog site will end up having a URL of https://username.github.io)
-2. Fork this repo by using this generator link: [https://github.com/jbpost2/Easy-Blog-Setup/generate](https://github.com/jbpost2/Easy-Blog-Setup/generate)
+2. Fork this repo by clicking on the "Fork" button in the top right of the page
     + This copies this repo to your account.
     + Rename the repo to {Your GitHub username}.github.io (without the {})
     + Make sure the repo is set to public
