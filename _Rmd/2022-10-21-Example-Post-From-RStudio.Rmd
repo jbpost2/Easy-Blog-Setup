@@ -1,0 +1,36 @@
+---
+title: "Example Post From RStudio"
+output: 
+  github_document
+---
+
+```{r, eval = FALSE, echo = FALSE}
+#Run this code in your **console**
+rmarkdown::render(input = "_Rmd/2022-10-21-Example-Post-From-RStudio.Rmd", 
+                  output_dir = '_posts/', 
+                  output_options = list(html_preview = FALSE))
+```
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(fig.path = "../img/")
+library(ggplot2)
+library(GGally)
+```
+
+## Cool Research Project
+
+Description of how awesome it is.  Maybe some code that does something to demonstrate.
+
+```{r cars}
+knitr::kable(summary(iris))
+```
+
+## Including Plots
+
+You can also embed plots, for example:
+
+```{r pressure, echo=FALSE, out.width = '550px'}
+GGally::ggpairs(iris, aes(color = Species))
+```
+
+Note that the `echo = FALSE` parameter was added to the code chunk to prevent printing of the R code that generated the plot.
