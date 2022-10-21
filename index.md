@@ -5,7 +5,7 @@ Things I'll blog about:
  - How fun it is to give a presentation about setting up a blog
  - More things like that
 
-You can also include **bold font** or [links](www.google.com). 
+You can also include **bold font** or [links](https://www.google.com). 
 
 ## Headers too!
 
