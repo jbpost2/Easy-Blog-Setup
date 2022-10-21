@@ -40,7 +40,7 @@ Requirements:
         - Choose folder to save your repo and create it
     + Create a new .Rmd file in the `_Rmd` folder (see the example file in that folder).
         + Note that the output type is `github_document`
-        + The code `knitr::opts_chunk$set(fig.path = "../img/")` in the setup code chunk
+        + The code `knitr::opts_chunk$set(fig.path = "../img/post_identifier/")` in the setup code chunk
         + The render code in the top code chunk should be run in the console
     + Push the changes up to github
         + Can use git tab in RStudio
